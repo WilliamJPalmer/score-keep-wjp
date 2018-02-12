@@ -1,0 +1,12 @@
+/*
+when importing the other related stylesheets, do not have to include
+the _ or the .scss/ When importing files, place the import at the bottom
+of the file, after all of the styling has been defined for that file.
+*/
+
+/*
+This will will not be used for any stlying. It is used basically as an
+initializer for the partials that will hold all of the style information, these
+are the fiels that will begin with and underscore and reside in other folders.
+*/
+@import '../imports/client/styles/main'
